@@ -92,3 +92,39 @@ Non-functional requirements define **how the system performs** its functions. Th
 - **Data Archival**: Older booking data should be archived using Cassandra to maintain performance and support big data analytics.
 
 ---
+
+## 🧩 Use Case Diagrams
+
+**Use Case Diagrams** are a type of Unified Modeling Language (UML) diagram that visually represent the interactions between users (actors) and the system. They help identify the functional requirements of a system by showing what users can do and how the system responds.
+
+### 🎯 Benefits of Use Case Diagrams:
+- **Clarify System Scope**: They define what the system will do and who will interact with it.
+- **Improve Communication**: Stakeholders, developers, and designers can easily understand system functionality.
+- **Guide Development**: They serve as a blueprint for designing features and user flows.
+- **Support Testing**: Test cases can be derived directly from use cases.
+
+### 🧑‍💼 Actors in the Booking System:
+- **Customer**: Searches, books, and pays for rooms.
+- **Hotel Manager**: Manages listings, availability, and pricing.
+- **Admin**: Oversees user accounts and system integrity.
+- **Payment Gateway**: Processes transactions securely.
+
+### 📋 Use Cases:
+- Search Hotels  
+- View Hotel Details  
+- Book Room  
+- Make Payment  
+- Register/Login  
+- Manage Listings  
+- Update Availability  
+- Cancel Booking  
+- View Booking History  
+- Admin Dashboard Access  
+
+### 🖼️ Use Case Diagram
+
+Below is the use case diagram for the Booking Management System. It illustrates the relationships between actors and their respective use cases.
+
+![Use Case Diagram – Booking System](alx-booking-uc.png)
+
+---
