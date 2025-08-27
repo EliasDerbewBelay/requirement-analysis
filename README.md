@@ -65,3 +65,30 @@ Requirement Analysis involves several structured activities that ensure the soft
   Validation ensures that the documented requirements accurately reflect stakeholder needs and are feasible within the project’s constraints. This step often involves reviews, walkthroughs, and approval sessions to confirm completeness, correctness, and clarity.
 
 ---
+## 📂 Types of Requirements
+
+In software engineering, requirements are broadly categorized into **Functional** and **Non-functional** types. Both are essential for building a robust and user-friendly system. Below are definitions and examples tailored to the Booking Management System inspired by platforms like Airbnb and OYO.
+
+### 🔧 Functional Requirements
+
+Functional requirements describe **what the system should do**—the specific behaviors, features, and interactions users expect.
+
+**Examples for the Booking Management System:**
+- **Hotel Listing and Search**: Users should be able to search for hotels based on location, availability, price range, and amenities.
+- **Booking Functionality**: Customers must be able to book a hotel room, select check-in/check-out dates, and view booking confirmation.
+- **User Authentication**: The system should allow users (customers and hotel managers) to register, log in, and manage their profiles.
+- **Payment Integration**: The booking service must integrate with third-party payment gateways to process transactions securely.
+- **Hotel Management Portal**: Hotel managers should be able to add, update, or remove hotel listings and manage room availability.
+
+### ⚙️ Non-functional Requirements
+
+Non-functional requirements define **how the system performs** its functions. These include performance, scalability, security, and usability.
+
+**Examples for the Booking Management System:**
+- **Scalability**: The system should handle high traffic volumes, especially during peak booking seasons, using microservices and load balancing.
+- **Performance**: Search results should be delivered within 2 seconds, leveraging caching mechanisms like Redis and ElasticSearch.
+- **Availability**: The system must maintain 99.9% uptime to ensure continuous access for users and hotel managers.
+- **Security**: All user data and payment information must be encrypted and comply with industry standards like SSL and PCI-DSS.
+- **Data Archival**: Older booking data should be archived using Cassandra to maintain performance and support big data analytics.
+
+---
